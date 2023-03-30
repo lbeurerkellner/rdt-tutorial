@@ -1,22 +1,36 @@
-Welcome to Lumache's documentation!
+Welcome to LMQL!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**LMQL** (Language Model Query Language) is a programming language for large language model interaction. 
+It facilitates LLM interaction by combining the benefits of natural language prompting with the expressiveness 
+of Python. With only a few lines of LMQL code, users can express advanced, multi-part and tool-augmented LM queries, 
+which then are optimized by the LMQL runtime to run efficiently as part of the LM decoding loop.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+LMQL is a research project by the `Secure, Reliable, and Intelligent Systems Lab <https://www.sri.inf.ethz.ch/>`_ at ETH Zürich.
 
-.. note::
 
-   This project is under active development.
+.. links
+.. `Open Food Facts database <https://world.openfoodfacts.org/>`_
+
+
+Quick Start
+-----------
+
+To get started, check out the :doc:`quickstart` section. 
+
+For smaller experiments, you can also use the web-based `LMQL Playground <lmql.ai/playground/>`_.
+
+.. raw:: html
+
+    <embed>
+        <iframe src="https://lmql.ai/playground/" width="100%" height="500px"></iframe>
+    </embed>
 
 Contents
 --------
 
 .. toctree::
 
+   quickstart
    usage
    api
